@@ -1,0 +1,29 @@
+{
+  "name": "react-native-collapsing",
+  "version": "0.0.1",
+  "description": "React Native library to generate menu collapsing.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaetanozappi/react-native-collapsing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gaetanozappi/react-native-collapsing/issues"
+  },
+  "homepage": "https://github.com/gaetanozappi/react-native-collapsing#readme",
+  "main": "Collapsing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react-native-animatable": "^1.3.0",
+    "react-native-vector-icons": "^5.0.0"
+  },
+  "keywords": [
+    "react-native",
+    "menu",
+    "collapsing",
+  ],
+  "author": "",
+  "license": "",
+  "peerDependencies": {}
+}
