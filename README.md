@@ -63,7 +63,6 @@ export default class App extends React.Component {
           }}
           menu={[
             {
-              type: 'menu',
               name: 'sub0',
               title: 'Home page',
               icon: 'home',
@@ -79,7 +78,6 @@ export default class App extends React.Component {
               badgeRadius: 4,
             },
             {
-              type: 'menu',
               name: 'sub1',
               title: 'Book',
               icon: 'book',
@@ -120,13 +118,11 @@ export default class App extends React.Component {
           }}
           menu={[
             {
-              type: 'menu',
               name: 'sub2',
               title: 'Movie',
               icon: 'home',
             },
             {
-              type: 'menu',
               name: 'sub3',
               title: 'Tv',
               icon: 'film',
@@ -143,12 +139,10 @@ export default class App extends React.Component {
           }}
           menu={[
             {
-              type: 'menu',
               name: 'sub4',
               title: 'Theater',
             },
             {
-              type: 'menu',
               name: 'sub5',
               title: 'Opera',
               icon: 'film',
@@ -198,6 +192,25 @@ const styles = StyleSheet.create({
 | `badgeFunction`       | `function`   |    | Use in case you want to define a function, for the badgeText attribute.
 | `onPress`       | `function`   |    | It is used to recover the pressure event.
 | `rippleColor`       | `string`   |    | Ripple color.
+| `menu`       | `array`   |    | It is used to define the menu.
+
+Menu
+
+| Prop              | Type       | Default | Note                                                                                                       |
+| ----------------- | ---------- | ------- | ---------------------------------------------------------------------------------------------------------- |
+| `name`       | `string`   |    | Unique name to assign to the item.
+| `title`       | `string`   |    | Title of the element.
+| `icon`       | `string`   |  `FontAwesome`  | Icon name.
+| `colorText`       | `string`   |   `#000000` | Text color.
+| `colorTextFocus`       | `string`   | `#607D8B`   | Text color status focus.
+| `colorIcon`       | `string`   |  `#000000`  | Icon color.
+| `colorIconFocus`       | `string`   |  `#607D8B`   | Icon color status focus.
+| `background`       | `string`   |  `transparent`   | Background element.
+| `backgroundFocus`       | `string`   |  `#e8e8e8`   | Background element status focus.
+| `badgeText`       | `string`   |    | Text badge.
+| `badgeColor`       | `string`   |    | Text color badge.
+| `badgeBackground`       | `string`   |    | Background badge.
+| `badgeRadius`       | `number`   |    | Badge radius.
 
 ## License
 This library is provided under the Apache License.
