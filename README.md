@@ -12,14 +12,14 @@
 
 ![PNG](screenshot/react-native-collapsing.png)
 
--   [Usage](#usage)
+-   [Usage](#-usage)
 -   [License](#-license)
 
 ## 📖 Getting started
 
 `$ npm install react-native-collapsing --save`
 
-## Usage
+## 💻 Usage
 
 ```javascript
 import * as React from 'react';
