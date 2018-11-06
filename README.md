@@ -13,7 +13,7 @@
 ![PNG](screenshot/react-native-collapsing.png)
 
 -   [Usage](#usage)
--   [License](#license)
+-   [License](#-license)
 
 ## 📖 Getting started
 
@@ -200,7 +200,7 @@ const styles = StyleSheet.create({
 | `rippleColor`       | `string`   |    | Ripple color.
 | `menu`       | `array`   |    | It is used to define the menu.
 
-Menu
+#### Menu
 
 | Prop              | Type       | Default | Note                                                                                                       |
 | ----------------- | ---------- | ------- | ---------------------------------------------------------------------------------------------------------- |
@@ -218,5 +218,5 @@ Menu
 | `badgeBackground`       | `string`   |    | Background badge.
 | `badgeRadius`       | `number`   |    | Badge radius.
 
-## License
+## 📜 License
 This library is provided under the Apache License.
