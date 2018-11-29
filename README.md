@@ -19,6 +19,8 @@
 
 `$ npm install react-native-collapsing --save`
 
+`$ react-native link react-native-vector-icons`
+
 ## 💻 Usage
 
 ```javascript
