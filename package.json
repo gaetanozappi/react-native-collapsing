@@ -23,7 +23,7 @@
     "menu",
     "collapsing"
   ],
-  "author": "",
-  "license": "",
+  "author": "Gaetano Zappi",
+  "license": "Apache License 2.0",
   "peerDependencies": {}
 }
